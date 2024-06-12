@@ -1,7 +1,5 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
   public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class Main {
 
 //    自己紹介を少し追加してコンソールに出力
 //    "私の趣味は" + hobby[1] + "," + … + "です"が出力されるようにする
-    String[] hobby = {"野球", "ゴルフ", "サカナクション", "旅行" };
+    String[] hobby = {"野球", "ゴルフ", "サカナクション", "旅行"};
     StringBuilder hobbies = new StringBuilder();
     int iter = 0;
     for (String s : hobby) {
